@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hospital Website</title>
-
+    <!-- MINIFIED CSS -->
     <link rel="stylesheet" href="styles.css" />
-
+    <!-- BOXICONS CDN -->
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
     />
-
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script src="main.js" defer></script>
   </head>
   <body>
@@ -262,15 +266,15 @@
     <!-- === X === X === -->
 
     <!-- === TESTIMONIALS === -->
-    <section id="testimonials">
+    <section id="testimonials" class="swiper mySwiper">
       <h2>What Our Patients Say</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
         consequatur reiciendis illo explicabo minus nobis?
       </p>
 
-      <div class="container">
-        <article>
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -281,14 +285,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -299,14 +303,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -317,14 +321,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -335,14 +339,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -353,14 +357,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -371,14 +375,14 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
 
-        <article>
+        <article class="swiper-slide">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             porro debitis velit iusto deserunt repellendus aspernatur corrupti,
@@ -389,14 +393,72 @@
             <div class="avatar">
               <img src="./assets/avatar1.jpg" alt="Patient One" />
             </div>
-            <div class="patient_details">
+            <div class="patient__details">
+              <h5>Nana Ama McBrown</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            porro debitis velit iusto deserunt repellendus aspernatur corrupti,
+            nobis aliquid quo fugit quidem dignissimos tempora dolores dicta,
+            est culpa reprehenderit deleniti!
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar1.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Nana Ama McBrown</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            porro debitis velit iusto deserunt repellendus aspernatur corrupti,
+            nobis aliquid quo fugit quidem dignissimos tempora dolores dicta,
+            est culpa reprehenderit deleniti!
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar1.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Nana Ama McBrown</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+            porro debitis velit iusto deserunt repellendus aspernatur corrupti,
+            nobis aliquid quo fugit quidem dignissimos tempora dolores dicta,
+            est culpa reprehenderit deleniti!
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar1.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
               <h5>Nana Ama McBrown</h5>
               <small>Patient</small>
             </div>
           </div>
         </article>
       </div>
+      <div class="swiper-pagination"></div>
     </section>
     <!-- === X === X === -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
