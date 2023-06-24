@@ -1,6 +1,7 @@
 const navItems = document.querySelector("#nav__items");
 const openNavBtn = document.querySelector("#open__nav-btn");
 const closeNavBtn = document.querySelector("#close__nav-btn");
+const navLinks = document.querySelectorAll("#nav__items a");
 
 openNavBtn.addEventListener("click", () => {
   navItems.style.display = "flex";
@@ -15,6 +16,10 @@ const closeNav = () => {
 };
 
 closeNavBtn.addEventListener("click", closeNav);
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", closeNav);
+});
 
 // TESTIMONIALS SECTION (swiper js)
 var swiper = new Swiper(".mySwiper", {
